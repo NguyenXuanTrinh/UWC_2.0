@@ -28,6 +28,7 @@
       font-weight: 500;
       color: white;
       border-collapse: collapse;
+      
   
       td {
         padding: 12px;
@@ -39,14 +40,17 @@
   
       .btn-select {
         cursor: pointer;
-        width: 60px;
-        height: 30px;
+        width: 120px;
+        height: 60px;
         border: 0px;
-        border-radius: 12px;
+        border-radius: 40px;
         font-size: medium;
         font-weight: 600;
-        background-color: #ffa705;
-        color: white;
+        background-color: white;
+        color: green;
+      }
+      .btn-select:focus{
+        background-color: aquamarine;
       }
     }
     .btns {
@@ -70,7 +74,10 @@
       }
       .btn-submit {
         @extend .btn;
-        background-color: #ffa705;
+       float:right;
+       position: relative;
+       left: 350px;
+        background-color: green;
       }
     }
   }
@@ -83,7 +90,8 @@
         background-color: white;
    // text-align: center;
    // align-self: center;
-
+   padding : 15px;
+   border: solid;
 
       cursor: pointer;
       margin: 14px ;
@@ -96,9 +104,17 @@
       //text-transform: uppercase;
       font-weight: 600;
       color: green
+      
   }
   .right{
     float:left;
   }
-  
+  .img1{
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    right:50px;
+  }
   
