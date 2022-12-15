@@ -15,10 +15,11 @@ function Ass_janitor({ ass_janitor, type }) {
             
         <div className={cx('areas')}>
             
-        Nguyễn Văn A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ID:1<br/>
+        Nguyễn Văn A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ID:13<br/>
             Janitor <br/>
-      
-            ID xe: 215 <br/>
+
+            Vehicle ID: 217 
+             <img className={cx("img1")} src="https://i.stack.imgur.com/l60Hf.png" alt="ss"></img>
           </div>
             <td>
               <Button className={cx("btn-select")}>CHỌN</Button>
@@ -28,13 +29,13 @@ function Ass_janitor({ ass_janitor, type }) {
 
         <div className={styles.cell}>
         <tr>
-            
         <div className={cx('areas')}>
             
-            Nguyễn Văn B &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ID:2<br/>
+            Nguyễn Văn B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ID:2<br/>
             Janitor <br/>
       
-            ID xe: 210 <br/>
+            Vehicle ID: 211 
+            <img className={cx("img1")} src="https://i.stack.imgur.com/l60Hf.png" alt="ss"></img>
           </div>
             <td>
               <Button className={cx("btn-select")}>CHỌN</Button>
@@ -46,41 +47,47 @@ function Ass_janitor({ ass_janitor, type }) {
             
         <div className={cx('areas')}>
             
-            Nguyễn Văn H &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ID:3<br/>
+            Nguyễn Văn C &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ID:8<br/>
             Janitor <br/>
       
-            ID xe: 295 <br/>
+            Vehicle ID: 214
+            <img className={cx("img1")} src="https://i.stack.imgur.com/l60Hf.png" alt="ss"></img> 
+            
           </div>
             <td>
-              <Button className={cx("btn-select")}>CHỌN</Button>
+              <Button className={cx("btn-select")} >CHỌN</Button>
             </td>
           </tr>
         </div>
           
+        
+
         <div className={styles.cell}>
         <tr>
             
         <div className={cx('areas')}>
             
-            Nguyễn Thị G&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ID:4<br/>
+            Nguyễn Văn D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ID:5<br/>
+          
             Janitor <br/>
       
-            ID xe: 234 <br/>
+            Vehicle ID: 279 
+             <img className={cx("img1")} src="https://i.stack.imgur.com/l60Hf.png" alt="ss"></img>
+            
           </div>
             <td>
               <Button className={cx("btn-select")}>CHỌN</Button>
             </td>
           </tr>
         </div>
-
-        
           
         </table>
         <div className={cx("btns")}>
-          <Button className={cx("btn-return")}>Quay lại</Button>
-          <Button className={cx("btn-submit")}>Xác nhận</Button>
+        
+          <Button className={cx("btn-submit")}>Tiếp theo</Button>
         </div>
       </div>
+      <div className={cx("footer")}>footer</div>
      
     </>
   );

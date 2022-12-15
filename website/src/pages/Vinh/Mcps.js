@@ -9,7 +9,7 @@ function Map_area({ mcps, type }) {
   return (
     <>
       <div className={cx("main")}>
-        <h3>BẢN ĐỒ MCPS</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BẢN ĐỒ MCPS</h3>
         <table>
           <tr>
           <td>
@@ -17,7 +17,7 @@ function Map_area({ mcps, type }) {
               <br/>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
-            KHU VỰC A &nbsp; &nbsp; &nbsp;
+            MAP A &nbsp; &nbsp; &nbsp;
             <FaMapMarkerAlt size={70} style={{margin: "4px 1px 0px 5px"}}/>
             
             </div>
@@ -33,7 +33,7 @@ function Map_area({ mcps, type }) {
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
         
-            KHU VỰC B &nbsp; &nbsp; &nbsp;
+            MAP B &nbsp; &nbsp; &nbsp;
             <FaMapMarkerAlt size={70} style={{margin: "4px 1px 0px 5px"}}/>
 
             </div>
@@ -48,7 +48,7 @@ function Map_area({ mcps, type }) {
             <br/>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
-            KHU VỰC C &nbsp; &nbsp; &nbsp;
+            MAP C &nbsp; &nbsp; &nbsp;
             <FaMapMarkerAlt size={70} style={{margin: "4px 1px 0px 5px"}}/>
 
             </div>
@@ -62,7 +62,7 @@ function Map_area({ mcps, type }) {
         </table>
         <div className={cx("btns")}>
           <Button className={cx("btn-return")}>Quay lại</Button>
-          <Button className={cx("btn-submit")}>Xác nhận</Button>
+          <Button className={cx("btn-submit")}>Tiếp theo</Button>
         </div>
       </div>
       <div className={cx("footer")}>footer</div>
