@@ -1,6 +1,7 @@
 import classNames from "classnames/bind";
 import styles from "./Map_area.module.scss";
 import { Button } from "react-bootstrap";
+import {FaMapMarkerAlt} from 'react-icons/fa'
 
 const cx = classNames.bind(styles);
 
@@ -14,7 +15,11 @@ function Map_area({ map_area, type }) {
           <tr>
             <td>
             <div className={cx('areas')}>
-            KHU VỰC A
+              <br/>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KHU VỰC A &nbsp;&nbsp;&nbsp;
+            <FaMapMarkerAlt size={70} style={{margin: "4px 1px 0px 5px"}}/>
+
+            <logo/>
             </div>
             </td>
             <td>
@@ -24,7 +29,11 @@ function Map_area({ map_area, type }) {
           <tr>
           <td>
             <div className={cx('areas')}>
-            KHU VỰC B
+            <br/> 
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            KHU VỰC B &nbsp;&nbsp;&nbsp;
+            <FaMapMarkerAlt size={70} style={{margin: "4px 1px 0px 5px"}}/>
+
             </div>
             </td>
             <td>
@@ -32,8 +41,7 @@ function Map_area({ map_area, type }) {
             </td>
           </tr>
           
-          
-          
+
         </table>
         <div className={cx("btns")}>
           <Button className={cx("btn-return")}>Quay lại</Button>
