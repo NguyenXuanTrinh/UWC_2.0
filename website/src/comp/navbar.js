@@ -23,11 +23,11 @@ export default class Navbar extends Component {
                             <div className="selection">
 
                                 <img className="selection--img" alt="" src={process.env.PUBLIC_URL + '/janitor.png'} />
-                                <a href="/Task-assignment-1"> Janitor   </a>
+                                <a href="/Ass_janitor"> Janitor   </a>
                             </div>
                             <div className="selection">
                                 <img className="selection--img" alt="" src={process.env.PUBLIC_URL + '/collector.png'} />
-                                <a href="/Task-assignment-1"> Collector   </a>
+                                <a href="/Ass_collector"> Collector   </a>
                             </div>
                         </div>
                     </div>

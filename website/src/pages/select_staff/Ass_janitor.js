@@ -1,19 +1,15 @@
 import classNames from "classnames/bind";
 import styles from "./Assign.module.scss";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const cx = classNames.bind(styles);
 
-const handleClick = (event) => {
-
-}
-
-function Ass_collector({ ass_collector, type }) {
+function Ass_janitor({ ass_janitor, type }) {
   return (
     <>
-      
       <div className={cx("main")}>
-        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DANH SÁCH NHÂN VIÊN THU GOM</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DANH SÁCH NHÂN VIÊN LAO CÔNG</h3>
         <table>
         <div className={styles.cell}>
         <tr>
@@ -21,7 +17,7 @@ function Ass_collector({ ass_collector, type }) {
         <div className={cx('areas')}>
             
         Nguyễn Văn A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ID:13<br/>
-            Collector <br/>
+            Janitor <br/>
 
             Vehicle ID: 217 
              <img className={cx("img1")} src="https://i.stack.imgur.com/l60Hf.png" alt="ss"></img>
@@ -37,7 +33,7 @@ function Ass_collector({ ass_collector, type }) {
         <div className={cx('areas')}>
             
             Nguyễn Văn B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ID:2<br/>
-            Collector <br/>
+            Janitor <br/>
       
             Vehicle ID: 211 
             <img className={cx("img1")} src="https://i.stack.imgur.com/l60Hf.png" alt="ss"></img>
@@ -52,8 +48,8 @@ function Ass_collector({ ass_collector, type }) {
             
         <div className={cx('areas')}>
             
-            Nguyễn Văn C &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ID:3<br/>
-            Collector <br/>
+            Nguyễn Văn C &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ID:8<br/>
+            Janitor <br/>
       
             Vehicle ID: 214
             <img className={cx("img1")} src="https://i.stack.imgur.com/l60Hf.png" alt="ss"></img> 
@@ -72,9 +68,9 @@ function Ass_collector({ ass_collector, type }) {
             
         <div className={cx('areas')}>
             
-            Nguyễn Văn D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ID:4<br/>
+            Nguyễn Văn D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ID:5<br/>
           
-            Collector <br/>
+            Janitor <br/>
       
             Vehicle ID: 279 
              <img className={cx("img1")} src="https://i.stack.imgur.com/l60Hf.png" alt="ss"></img>
@@ -88,14 +84,13 @@ function Ass_collector({ ass_collector, type }) {
           
         </table>
         <div className={cx("btns")}>
-          
-          <Button className={cx("btn-return")}>Quay lại</Button>
-          <Button className={cx("btn-submit")}>Tiếp theo</Button>
+        <Button className={cx("btn-return")}><Link to='/' >Quay lại</Link></Button>
+          <Button className={cx("btn-submit")}><Link to='/Map_area' >Tiếp theo</Link></Button>
         </div>
       </div>
-      <div className={cx("footer")}>footer</div>
+     
     </>
   );
 }
 
-export default Ass_collector;
+export default Ass_janitor;

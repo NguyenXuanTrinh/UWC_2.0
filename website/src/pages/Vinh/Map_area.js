@@ -2,6 +2,7 @@ import classNames from "classnames/bind";
 import styles from "./Map_area.module.scss";
 import { Button } from "react-bootstrap";
 import {FaMapMarkerAlt} from 'react-icons/fa'
+import { Link } from "react-router-dom";
 
 const cx = classNames.bind(styles);
 
@@ -14,6 +15,7 @@ function Map_area({ map_area, type }) {
         <table>
           <tr>
             <td>
+              <Link to='/map' >
             <div className={cx('areas')}>
               <br/>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KHU VỰC A &nbsp;&nbsp;&nbsp;
@@ -21,6 +23,7 @@ function Map_area({ map_area, type }) {
 
             <logo/>
             </div>
+            </Link>
             </td>
             <td>
               <Button className={cx("btn-select")}>CHỌN</Button>
@@ -28,6 +31,7 @@ function Map_area({ map_area, type }) {
           </tr>
           <tr>
           <td>
+          <Link to='/map' >
             <div className={cx('areas')}>
             <br/> 
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -35,6 +39,7 @@ function Map_area({ map_area, type }) {
             <FaMapMarkerAlt size={70} style={{margin: "4px 1px 0px 5px"}}/>
 
             </div>
+            </Link>
             </td>
             <td>
               <Button className={cx("btn-select")}>CHỌN</Button>
@@ -44,11 +49,10 @@ function Map_area({ map_area, type }) {
 
         </table>
         <div className={cx("btns")}>
-          <Button className={cx("btn-return")}>Quay lại</Button>
-          <Button className={cx("btn-submit")}>Tiếp theo</Button>
+          <Button className={cx("btn-return")}><Link to='/Ass_janitor' >Quay lại</Link></Button>
+          <Button className={cx("btn-submit")}><Link to='/Task-Assignment-1' >Tiếp theo</Link></Button>
         </div>
       </div>
-      <div className={cx("footer")}>footer</div>
     </>
   );
 }
