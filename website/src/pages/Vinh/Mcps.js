@@ -1,20 +1,25 @@
 import classNames from "classnames/bind";
 import styles from "./Map_area.module.scss";
 import { Button } from "react-bootstrap";
+import {FaMapMarkerAlt} from 'react-icons/fa'
 
 const cx = classNames.bind(styles);
 
 function Map_area({ mcps, type }) {
   return (
     <>
-      <div className={cx("header")}>header</div>
       <div className={cx("main")}>
         <h3>BẢN ĐỒ MCPS</h3>
         <table>
           <tr>
           <td>
             <div className={cx('areas')}>
-            KHU VỰC A
+              <br/>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+            KHU VỰC A &nbsp; &nbsp; &nbsp;
+            <FaMapMarkerAlt size={70} style={{margin: "4px 1px 0px 5px"}}/>
+            
             </div>
             </td>
             <td>
@@ -24,7 +29,13 @@ function Map_area({ mcps, type }) {
           <tr>
           <td>
             <div className={cx('areas')}>
-            KHU VỰC B
+              <br/>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+        
+            KHU VỰC B &nbsp; &nbsp; &nbsp;
+            <FaMapMarkerAlt size={70} style={{margin: "4px 1px 0px 5px"}}/>
+
             </div>
             </td>
             <td>
@@ -34,7 +45,12 @@ function Map_area({ mcps, type }) {
           <tr>
           <td>
             <div className={cx('areas')}>
-            KHU VỰC C
+            <br/>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+            KHU VỰC C &nbsp; &nbsp; &nbsp;
+            <FaMapMarkerAlt size={70} style={{margin: "4px 1px 0px 5px"}}/>
+
             </div>
             </td>
             <td>
