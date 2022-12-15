@@ -7,17 +7,16 @@ const cx = classNames.bind(styles);
 function Ass_janitor({ ass_janitor, type }) {
   return (
     <>
-      <div className={cx("header")}>header</div>
       <div className={cx("main")}>
-        <h3>DANH SÁCH NHÂN VIÊN LAO CÔNG</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DANH SÁCH NHÂN VIÊN LAO CÔNG</h3>
         <table>
         <div className={styles.cell}>
         <tr>
             
         <div className={cx('areas')}>
             
-            Nguyễn Văn A        Janitor<br/>
-            ID: 2 <br/>
+        Nguyễn Văn A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ID:1<br/>
+            Janitor <br/>
       
             ID xe: 215 <br/>
           </div>
@@ -32,8 +31,8 @@ function Ass_janitor({ ass_janitor, type }) {
             
         <div className={cx('areas')}>
             
-            Nguyễn Văn B        Janitor<br/>
-            ID: 2 <br/>
+            Nguyễn Văn B &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ID:2<br/>
+            Janitor <br/>
       
             ID xe: 210 <br/>
           </div>
@@ -47,8 +46,8 @@ function Ass_janitor({ ass_janitor, type }) {
             
         <div className={cx('areas')}>
             
-            Nguyễn Văn H        Janitor<br/>
-            ID: 2 <br/>
+            Nguyễn Văn H &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ID:3<br/>
+            Janitor <br/>
       
             ID xe: 295 <br/>
           </div>
@@ -63,8 +62,8 @@ function Ass_janitor({ ass_janitor, type }) {
             
         <div className={cx('areas')}>
             
-            Nguyễn Thị G        Janitor<br/>
-            ID: 2 <br/>
+            Nguyễn Thị G&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ID:4<br/>
+            Janitor <br/>
       
             ID xe: 234 <br/>
           </div>
@@ -82,7 +81,7 @@ function Ass_janitor({ ass_janitor, type }) {
           <Button className={cx("btn-submit")}>Xác nhận</Button>
         </div>
       </div>
-      <div className={cx("footer")}>footer</div>
+     
     </>
   );
 }
