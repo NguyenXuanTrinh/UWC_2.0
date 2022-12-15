@@ -3,15 +3,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  .header {
-    width: 100%;
-    height: 10vh;
-    text-align: center;
-    font-size: larger;
-    color: white;
-    background-color: green;
-  }
-  
+
   .main {
     display: flex;
     flex-direction: column;
@@ -82,14 +74,7 @@
     }
   }
   
-  .footer {
-    width: 100%;
-    height: 10vh;
-    text-align: center;
-    font-size: larger;
-    color: white;
-    background-color: green;
-  }
+  
   .areas {
     display: flex;
     flex-direction: row;

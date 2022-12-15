@@ -7,7 +7,7 @@ const cx = classNames.bind(styles);
 function Map_area({ map_area, type }) {
   return (
     <>
-      <div className={cx("header")}>header</div>
+      
       <div className={cx("main")}>
         <h3>BẢN ĐỒ</h3>
         <table>
