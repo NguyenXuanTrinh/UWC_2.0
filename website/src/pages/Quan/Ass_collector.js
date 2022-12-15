@@ -7,18 +7,20 @@ const cx = classNames.bind(styles);
 function Ass_collector({ ass_collector, type }) {
   return (
     <>
-      <div className={cx("header")}>header</div>
+      
       <div className={cx("main")}>
-        <h3>DANH SÁCH NHÂN VIÊN THU GOM</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DANH SÁCH NHÂN VIÊN THU GOM</h3>
         <table>
         <div className={styles.cell}>
         <tr>
             
-            <td>Nguyễn Văn A</td>{"\n"}
-            <td>ID: 1</td>
+        <div className={cx('areas')}>
             
-            <td>Collector</td>
-            <td>ID xe: 1</td>
+        Nguyễn Văn A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ID:1<br/>
+            Collector <br/>
+      
+            ID xe: 217 <br/>
+          </div>
             <td>
               <Button className={cx("btn-select")}>CHỌN</Button>
             </td>
@@ -27,12 +29,13 @@ function Ass_collector({ ass_collector, type }) {
 
         <div className={styles.cell}>
         <tr>
+        <div className={cx('areas')}>
             
-            <td>Nguyễn Văn B</td>{"\n"}
-            <td>ID: 2</td>
-            
-            <td>Collector</td>
-            <td>ID xe: 211</td>
+            Nguyễn Văn B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        ID:2<br/>
+            Collector <br/>
+      
+            ID xe: 211 <br/>
+          </div>
             <td>
               <Button className={cx("btn-select")}>CHỌN</Button>
             </td>
@@ -41,39 +44,33 @@ function Ass_collector({ ass_collector, type }) {
         <div className={styles.cell}>
         <tr>
             
-            <td>Nguyễn Văn H</td>{"\n"}
-            <td>ID: 2</td>
+        <div className={cx('areas')}>
             
-            <td>Collector</td>
-            <td>ID xe: 878</td>
+            Nguyễn Văn C &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       ID:3<br/>
+            Collector <br/>
+      
+            ID xe: 214 <br/>
+          </div>
             <td>
               <Button className={cx("btn-select")}>CHỌN</Button>
             </td>
           </tr>
         </div>
           
-        <div className={styles.cell}>
-        <tr>
-            
-            <td>Trần Thị D</td>{"\n"}
-            <td>ID: 8</td>
-            
-            <td>Collector</td>
-            <td>ID xe: 156</td>
-            <td>
-              <Button className={cx("btn-select")}>CHỌN</Button>
-            </td>
-          </tr>
-        </div>
+        
 
         <div className={styles.cell}>
         <tr>
             
-            <td>Nguyễn Thị G</td>{"\n"}
-            <td>ID: 10</td>
+        <div className={cx('areas')}>
             
-            <td>Collector</td>
-            <td>ID xe: 639</td>
+            Nguyễn Văn D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       ID:4<br/>
+          
+            Collector <br/>
+      
+            ID xe: 279 <br/>
+            
+          </div>
             <td>
               <Button className={cx("btn-select")}>CHỌN</Button>
             </td>
