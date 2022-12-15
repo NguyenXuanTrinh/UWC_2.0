@@ -11,6 +11,7 @@
     justify-content: center;
     max-width: 1200px;
     margin: 10px auto;
+    
     h3 {
       font-size: 30px;
       color: green;
@@ -48,6 +49,8 @@
         font-weight: 600;
         background-color: white;
         color: green;
+        position: relative;
+        top:23px;
       }
       .btn-select:focus{
         background-color: aquamarine;
@@ -60,9 +63,9 @@
         cursor: pointer;
         margin: 40px auto;
         width: 150px;
-        height: 40px;
+        height: 60px;
         border: 0px;
-        border-radius: 20px;
+        border-radius: 30px;
         font-size: 20px;
         text-transform: uppercase;
         font-weight: 600;
@@ -74,9 +77,9 @@
       }
       .btn-submit {
         @extend .btn;
-       float:right;
-       position: relative;
-       left: 350px;
+       //float:right;
+       //position: relative;
+       //left: 350px;
         background-color: green;
       }
     }
@@ -95,7 +98,7 @@
 
       cursor: pointer;
       margin: 14px ;
-      margin-left: 200px;
+      margin-left: 125px;
       width: 340px;
       height: 120px;
       border: 0px;
