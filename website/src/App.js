@@ -7,8 +7,8 @@ import TaskAssignment2 from "./pages/task-assignment/TaskAssignment2";
 
 import Mcps from "./pages/Vinh/Mcps"
 import Map_area from "./pages/Vinh/Map_area"
-import Ass_collector from "./pages/Quan/Ass_collector"
-import Ass_janitor from "./pages/Quan/Ass_janitor"
+import Ass_collector from "./pages/select_staff/Ass_collector"
+import Ass_janitor from "./pages/select_staff/Ass_janitor"
 
 import Map from "./pages/map/map"
 import TaskPage from "./layouts/Task/TaskPage/Task.js"

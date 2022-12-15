@@ -26,7 +26,7 @@ function Troller({troller=[]}){
                     </label>
                 ))}
             </div>
-            <Button className={cx('submit')} >Xác nhận</Button>
+            <Button className={cx('submit')} ><Link to='/Task-Assignment-1' >Xác nhận</Link></Button>
         </div>
         </>
     )

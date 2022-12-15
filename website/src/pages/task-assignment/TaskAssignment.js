@@ -1,10 +1,31 @@
 import classNames from "classnames/bind";
 import styles from "./TaskAssignment.module.scss";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 // import { Navbar } from "../../comp/navbar.js";
 const cx = classNames.bind(styles);
 
 function TaskAssignment({ task, type }) {
+  function GetBack(){
+    if(type==="Xe đẩy"){
+      return(
+        <Button className={cx("btn-return")}><Link to='/Map_area' >Quay lại</Link></Button>
+      )
+    }
+    return(
+      <Button className={cx("btn-return")}><Link to='/Mcps' >Quay lại</Link></Button>
+    )
+  }
+  function GetVehicle(){
+    if(type==="Xe đẩy"){
+      return(
+        <Button className={cx("btn-select")}><Link to='/Troller'>Select</Link></Button>
+      )
+    }
+    return(
+      <Button className={cx("btn-select")}><Link to='/Vehicle'>Select</Link></Button>
+    )
+  }
   return (
     <>
       <div className={cx("main")}>
@@ -39,13 +60,13 @@ function TaskAssignment({ task, type }) {
           <tr>
             <td>{type}:</td>
             <td>
-              <Button className={cx("btn-select")}>Select</Button>
+              <GetVehicle />
             </td>
           </tr>
         </table>
         <div className={cx("btns")}>
-          <Button className={cx("btn-return")}>Quay lại</Button>
-          <Button className={cx("btn-submit")}>Xác nhận</Button>
+          <GetBack />
+          <Button className={cx("btn-submit")}><Link to='/' >Xác nhận</Link></Button>
         </div>
       </div>
     </>
