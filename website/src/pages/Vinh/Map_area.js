@@ -10,7 +10,7 @@ function Map_area({ map_area, type }) {
     <>
       
       <div className={cx("main")}>
-        <h3>BẢN ĐỒ</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BẢN ĐỒ</h3>
         <table>
           <tr>
             <td>
@@ -45,7 +45,7 @@ function Map_area({ map_area, type }) {
         </table>
         <div className={cx("btns")}>
           <Button className={cx("btn-return")}>Quay lại</Button>
-          <Button className={cx("btn-submit")}>Xác nhận</Button>
+          <Button className={cx("btn-submit")}>Tiếp theo</Button>
         </div>
       </div>
       <div className={cx("footer")}>footer</div>

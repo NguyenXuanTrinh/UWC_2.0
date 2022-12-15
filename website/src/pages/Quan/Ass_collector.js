@@ -4,6 +4,10 @@ import { Button } from "react-bootstrap";
 
 const cx = classNames.bind(styles);
 
+const handleClick = (event) => {
+
+}
+
 function Ass_collector({ ass_collector, type }) {
   return (
     <>
@@ -16,10 +20,11 @@ function Ass_collector({ ass_collector, type }) {
             
         <div className={cx('areas')}>
             
-        Nguyễn Văn A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ID:1<br/>
+        Nguyễn Văn A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ID:13<br/>
             Collector <br/>
-      
-            ID xe: 217 <br/>
+
+            Vehicle ID: 217 
+             <img className={cx("img1")} src="https://i.stack.imgur.com/l60Hf.png" alt="ss"></img>
           </div>
             <td>
               <Button className={cx("btn-select")}>CHỌN</Button>
@@ -31,10 +36,11 @@ function Ass_collector({ ass_collector, type }) {
         <tr>
         <div className={cx('areas')}>
             
-            Nguyễn Văn B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        ID:2<br/>
+            Nguyễn Văn B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ID:2<br/>
             Collector <br/>
       
-            ID xe: 211 <br/>
+            Vehicle ID: 211 
+            <img className={cx("img1")} src="https://i.stack.imgur.com/l60Hf.png" alt="ss"></img>
           </div>
             <td>
               <Button className={cx("btn-select")}>CHỌN</Button>
@@ -46,13 +52,15 @@ function Ass_collector({ ass_collector, type }) {
             
         <div className={cx('areas')}>
             
-            Nguyễn Văn C &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       ID:3<br/>
+            Nguyễn Văn C &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      ID:3<br/>
             Collector <br/>
       
-            ID xe: 214 <br/>
+            Vehicle ID: 214
+            <img className={cx("img1")} src="https://i.stack.imgur.com/l60Hf.png" alt="ss"></img> 
+            
           </div>
             <td>
-              <Button className={cx("btn-select")}>CHỌN</Button>
+              <Button className={cx("btn-select")} >CHỌN</Button>
             </td>
           </tr>
         </div>
@@ -64,11 +72,12 @@ function Ass_collector({ ass_collector, type }) {
             
         <div className={cx('areas')}>
             
-            Nguyễn Văn D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       ID:4<br/>
+            Nguyễn Văn D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ID:4<br/>
           
             Collector <br/>
       
-            ID xe: 279 <br/>
+            Vehicle ID: 279 
+             <img className={cx("img1")} src="https://i.stack.imgur.com/l60Hf.png" alt="ss"></img>
             
           </div>
             <td>
@@ -79,8 +88,8 @@ function Ass_collector({ ass_collector, type }) {
           
         </table>
         <div className={cx("btns")}>
-          <Button className={cx("btn-return")}>Quay lại</Button>
-          <Button className={cx("btn-submit")}>Xác nhận</Button>
+        
+          <Button className={cx("btn-submit")}>Tiếp theo</Button>
         </div>
       </div>
       <div className={cx("footer")}>footer</div>

@@ -12,7 +12,7 @@
     max-width: 1200px;
     margin: 10px auto;
     h3 {
-      font-size: 30px;
+      font-size: 50px;
       color: green;
       margin: 0 5vh;
       width: 70%;
@@ -40,14 +40,16 @@
   
       .btn-select {
         cursor: pointer;
-        width: 60px;
-        height: 30px;
+        width: 90px;
+        height: 50px;
         border: 0px;
-        border-radius: 12px;
+        border-radius: 25px;
         font-size: medium;
         font-weight: 600;
         background-color: white;
         color: green;
+        position: relative;
+       right: 150px;
       }
     }
     .btns {
@@ -57,9 +59,9 @@
         cursor: pointer;
         margin: 40px auto;
         width: 150px;
-        height: 40px;
+        height: 60px;
         border: 0px;
-        border-radius: 20px;
+        border-radius: 30px;
         font-size: 20px;
         text-transform: uppercase;
         font-weight: 600;
@@ -74,10 +76,12 @@
       }
       .btn-submit {
         @extend .btn;
-        background-color: #ffa705;
+        background-color: green;
+        color:white;
+        
       }
     }
-    .btn-select:hover {
+    .btn-select:focus {
       
       background: yellowgreen;
 
