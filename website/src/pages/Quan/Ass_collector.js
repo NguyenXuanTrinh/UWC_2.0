@@ -88,7 +88,8 @@ function Ass_collector({ ass_collector, type }) {
           
         </table>
         <div className={cx("btns")}>
-        
+          
+          <Button className={cx("btn-return")}>Quay lại</Button>
           <Button className={cx("btn-submit")}>Tiếp theo</Button>
         </div>
       </div>
