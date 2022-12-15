@@ -7,17 +7,17 @@ const cx = classNames.bind(styles);
 function Ass_collector({ ass_collector, type }) {
   return (
     <>
-      <div className={cx("header")}>header</div>
+      
       <div className={cx("main")}>
-        <h3>DANH SÁCH NHÂN VIÊN THU GOM</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DANH SÁCH NHÂN VIÊN THU GOM</h3>
         <table>
         <div className={styles.cell}>
         <tr>
             
         <div className={cx('areas')}>
             
-            Nguyễn Văn A        Collector<br/>
-            ID: 1 <br/>
+        Nguyễn Văn A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ID:1<br/>
+            Collector <br/>
       
             ID xe: 217 <br/>
           </div>
@@ -31,8 +31,8 @@ function Ass_collector({ ass_collector, type }) {
         <tr>
         <div className={cx('areas')}>
             
-            Nguyễn Văn B        Collector<br/>
-            ID: 2 <br/>
+            Nguyễn Văn B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        ID:2<br/>
+            Collector <br/>
       
             ID xe: 211 <br/>
           </div>
@@ -46,8 +46,8 @@ function Ass_collector({ ass_collector, type }) {
             
         <div className={cx('areas')}>
             
-            Nguyễn Văn C        Collector<br/>
-            ID: 3 <br/>
+            Nguyễn Văn C &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       ID:3<br/>
+            Collector <br/>
       
             ID xe: 214 <br/>
           </div>
@@ -64,10 +64,12 @@ function Ass_collector({ ass_collector, type }) {
             
         <div className={cx('areas')}>
             
-            Nguyễn Văn D        Collector<br/>
-            ID: 4 <br/>
+            Nguyễn Văn D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       ID:4<br/>
+          
+            Collector <br/>
       
             ID xe: 279 <br/>
+            
           </div>
             <td>
               <Button className={cx("btn-select")}>CHỌN</Button>
